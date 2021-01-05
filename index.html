@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
+    <link type="text/css" rel="stylesheet" href="plugin\ionicons-2.0.1\css\ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugin/onicons-2.0.1/css/ionicons.min.css">
+    <title>Dylan Babonneau</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <ul id="menu">
+            <li><a href="#coordonnées">coordonnées</a></li>
+            <li><a href="#formations">formations</a></li>
+            <li><a href="#expériences">expériences</a></li>
+            <li><a href="#menu"><img class="avatar" src="img/avatar.jpg" alt="avatar"></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="name">
+        <h1>Dylan Babonneau</h1>
+      </div>
+    </header>
+    <main>
+      <section id="coordonnées">
+          <div class="coord">
+            <h2>Coordonnées</h2>
+          </div>
+        <div class="row coordlist">
+          <div class="">
+            <h3>6 rue de la Butte aux Alouettes</h3>
+          </div>
+		  <div class="">
+            <h3>22690</h3>
+          </div>
+          <div class="">
+            <h3>Pleudihen sur Rance</h3>
+          </div>
+          <div class="cursor">
+            <h3><a onclick="copytel()" data-clip title="0625846588">0625846588</a></h3>
+          </div>
+          <div class="">
+            <h3><a onclick="copymail()" id="mail" href="mailto:basile.lucena@protonmail.com">dylanbab22@live.fr</a></h3>
+          </div>
+        </div>
+      </section>
+      <section id="formations">
+          <div>
+            <h2>Formations</h2>
+          </div>
+        <div class="row">
+          <div class="dates">
+            <h3>2020-2021</h3>
+            <p>IMTS, formation informatique</p>
+          </div>
+          <div class="dates">
+            <h3>2013</h3>
+            <p>Diplôme National du Brevet<br>
+              avec mention bien</p>
+          </div>
+        </div>
+      </section>
+      <div class="back">
+        <embed src="sound/sound.mp3" loop="true" autostart="true" width="2"
+         height="0">
+         <div class="temps">
+          <div id="date"></div>
+          <div id="heure_exacte"></div>
+         </div>
+      </div>
+      <section id="expériences">
+          <div>
+            <h2>Expériences</h2>
+          </div>
+        <div class="row">
+          <div class="dates">
+            <h3>2016</h3>
+            <p>Dépanage informatique</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <input id="copymail" type="text" name="" value="dylanbab22@live.fr">
+      <input id="copytel" type="text" name="" value="0625846588">
+      <div class="icones">
+        <a onclick="copytel()" data-clip title="0625846588"><i class="ion-ios-telephone"></i></a>
+        <a onclick="copymail()" title="dylanbab22@live.fr" href="mailto:dylanbab22@live.fr"><i class="ion-email"></i></a>
+        <a title="qwant" href="https://www.facebook.com/dylan.babonneau" target="_blanck"><i class="ion-social-facebook"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

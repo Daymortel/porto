@@ -1,0 +1,185 @@
+@media only screen and (max-width: 768px){
+
+    header{
+      margin-top: -60px;
+    }
+  
+    .avatar{
+      height: 100px;
+      width: auto;
+      float: left;
+      margin: 160px 0 0 -35px;
+      animation: neonavatar 20s infinite;
+      border-radius: 50px;
+      position: fixed;
+      z-index: 100;
+    }
+  
+    #neon{
+      position: absolute;
+      width: auto;
+      height: 105px;
+      border-radius: 50%;
+      margin: 158px 0 0 -35px;
+      padding-right: 110px;
+      position: fixed;
+    }
+  
+    #neon2{
+      position: absolute;
+      width: auto;
+      height: 105px;
+      border-radius: 50%;
+      margin: 158px 0 0 -35px;
+      padding-right: 110px;
+      position: fixed;
+    }
+  
+    #menu{
+      display: flex;
+      flex-direction: column;
+      line-height: 150px;
+      float: none;
+      text-align: center;
+      margin: 0 0 0 -50px;
+      padding-top: 20%;
+    }
+  
+    #menu li{
+      font-size: 150%;
+    }
+  
+    .name{
+      text-align: center;
+      position: relative;
+      width: 900px;
+      margin: -300px 0 0 0;
+      font-size: 60%;
+    }
+  
+    .coordlist{
+      margin-left: 170px;
+      width: 60%;
+    }
+  
+    footer{
+      background-color: #001133;
+      height: 500px;
+    }
+  
+    .icones{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+    }
+  
+    #date{
+      font-size: 200%;
+      position: relative;
+      margin-left: 50%;
+      margin-top: 2%;
+      transform: translate(-50%);
+    }
+  
+    #heure_exacte{
+      font-size: 200%;
+      position: relative;
+      margin-left: 50%;
+      margin-top: 2%;
+      transform: translate(-50%);
+    }
+  }
+  
+  @media only screen and (max-width: 480px){
+  
+    header{
+      margin-top: -60px;
+    }
+  
+    .avatar{
+      height: 100px;
+      width: auto;
+      float: left;
+      margin: 160px 0 0 -35px;
+      animation: neonavatar 20s infinite;
+      border-radius: 50px;
+      position: fixed;
+      z-index: 100;
+    }
+  
+    #neon{
+      position: absolute;
+      width: auto;
+      height: 105px;
+      border-radius: 50%;
+      margin: 158px 0 0 -35px;
+      padding-right: 110px;
+      position: fixed;
+    }
+  
+    #neon2{
+      position: absolute;
+      width: auto;
+      height: 105px;
+      border-radius: 50%;
+      margin: 158px 0 0 -35px;
+      padding-right: 110px;
+      position: fixed;
+    }
+  
+    #menu{
+      display: flex;
+      flex-direction: column;
+      line-height: 150px;
+      float: none;
+      text-align: center;
+      margin: 0 0 0 -50px;
+      padding-top: 20%;
+    }
+  
+    #menu li{
+      font-size: 150%;
+    }
+  
+    .name{
+      text-align: center;
+      position: relative;
+      width: 900px;
+      margin: -300px 0 0 0;
+      font-size: 60%;
+    }
+  
+    .coordlist{
+      margin-left: 170px;
+      width: 60%;
+    }
+  
+    footer{
+      background-color: #001133;
+      height: 500px;
+    }
+  
+    .icones{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+    }
+  
+    #date{
+      font-size: 200%;
+      position: relative;
+      margin-left: 50%;
+      margin-top: 30%;
+      transform: translate(-50%);
+    }
+  
+    #heure_exacte{
+      font-size: 200%;
+      position: relative;
+      margin-left: 50%;
+      margin-top: 2%;
+      transform: translate(-50%);
+    }
+  }
