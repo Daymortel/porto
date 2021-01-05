@@ -170,7 +170,7 @@
     #date{
       font-size: 200%;
       position: relative;
-      margin-left: 50%;
+      margin-left: 40%;
       margin-top: 30%;
       transform: translate(-50%);
     }
@@ -178,7 +178,7 @@
     #heure_exacte{
       font-size: 200%;
       position: relative;
-      margin-left: 50%;
+      margin-left: 45%;
       margin-top: 2%;
       transform: translate(-50%);
     }
